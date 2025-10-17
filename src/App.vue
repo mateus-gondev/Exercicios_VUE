@@ -7,12 +7,13 @@
       <div class="container">
         <h1 class="mb-0">Exercícios Mateus Dev</h1>
         <p class="subtitle">SEMANA 01</p>
+        <p class="subtitle">{{exercicio}}</p>
 
         <div class="nav-vertical">
           <p>Segunda-Feira</p>
           <ul class="links">
-            <li><a href="#">Exercício 01</a></li>
-            <li><a href="#">Exercício 02</a></li>
+            <li><router-link to="/">Contador</router-link></li>
+            <li><router-link to="/tarefas">Lista de Tarefas</router-link></li>
             <li><a href="#">Exercício 03</a></li>
           </ul>
         </div>
@@ -22,9 +23,7 @@
 
     <!--CONTEUDO DA PAGINA-->
     <div class="container">
-      <div class="col-md-8">
-          <Contador />
-      </div>
+      <router-view></router-view>
     </div>
 
     <footer class="footer">
@@ -40,14 +39,11 @@
 
 <!--Vai puxar os conteúdos da paginas-->
 <script>
-import Contador from './components/Contador.vue'
 
 export default {
   name: 'App',
-  components: {
-    Contador
-  }
-}
+  exercicio: ''
+};
 
 </script>
 
@@ -88,7 +84,7 @@ header h1 {
 }
 
 header .subtitle {
-  margin-top: 0.2rem;
+  margin-top: 1.2rem;
   font-size: 1.1rem;
   opacity: 0.9;
 }

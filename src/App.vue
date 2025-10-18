@@ -7,7 +7,6 @@
       <div class="container">
         <h1 class="mb-0">Exercícios Mateus Dev</h1>
         <p class="subtitle">SEMANA 01</p>
-        <p class="subtitle">{{exercicio}}</p>
 
         <div class="nav-vertical">
           <p>Segunda-Feira</p>
@@ -42,7 +41,6 @@
 
 export default {
   name: 'App',
-  exercicio: ''
 };
 
 </script>

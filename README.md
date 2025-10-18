@@ -1,42 +1,57 @@
-# mateus vue
+# 🚀 Exercícios Mateus Dev
 
-This template should help get you started developing with Vue 3 in Vite.
+<p align="start">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js" width="40" height="40"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
+</p>
 
-## Recommended IDE Setup
+Repositório destinado à documentação e desenvolvimento dos **exercícios semanais** realizados durante as aulas do **Professor Rodrigo**.  
+O principal foco desta semana é o estudo e prática com o **framework Vue.js**.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Recommended Browser Setup
+---
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## 📘 Semana 01 — Vue.js
 
-## Type Support for `.vue` Imports in TS
+### 🗂️ Exercícios desenvolvidos:
+- **Contador** — contador interativo com incrementos e decrementos personalizáveis.  
+- **Lista de Tarefas** — aplicação simples para adicionar, editar e remover tarefas.  
+- **Exercício 03** — (em desenvolvimento).
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+---
 
-## Customize configuration
+## 🛠️ Como utilizar o projeto
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Clone o repositório:
+```bash
+git clone https://github.com/mateus-gondev/Exercicios_VUE.git
+```
 
-## Project Setup
-
-```sh
+Entre na pasta do projeto e instale as dependências:
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
+Inicie o servidor de desenvolvimento:
+```bash
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
+💡 Caso os ícones não sejam exibidos corretamente, instale o Font Awesome:
+```bash
+npm install @fortawesome/fontawesome-free
 ```
+#
+📌 Observações
+
+O projeto está em desenvolvimento contínuo.
+Novas atualizações e exercícios serão adicionados em breve! 
+
+#
+
+👨‍💻 Autor
+
+Mateus Rodrigues
+Estudante de Análise e Desenvolvimento de Sistemas
+Foco em desenvolvimento Front-end e UI/UX Design

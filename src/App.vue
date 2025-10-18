@@ -8,13 +8,39 @@
         <h1 class="mb-0">Exercícios Mateus Dev</h1>
         <p class="subtitle">SEMANA 01</p>
 
-        <div class="nav-vertical">
-          <p>Segunda-Feira</p>
-          <ul class="links">
-            <li><router-link to="/">Contador</router-link></li>
-            <li><router-link to="/tarefas">Lista de Tarefas</router-link></li>
-            <li><router-link to="/imc">Calculadora IMC</router-link></li>
-          </ul>
+        <!--Contem meus cards da semana-->
+        <div class="cont-carts">
+
+          <!--CARD - SEGUNDA FEIRA-->
+          <div class="nav-vertical">
+            <p>Segunda-Feira</p>
+            <ul class="links">
+              <li><router-link to="/">Contador</router-link></li>
+              <li><router-link to="/tarefas">Lista de Tarefas</router-link></li>
+              <li><router-link to="/imc">Calculadora IMC</router-link></li>
+            </ul>
+          </div>
+
+          <!--CARD - TERÇA FEIRA-->
+          <div class="nav-vertical2">
+            <p>Terça-Feira</p>
+            <ul class="links">
+              <li><router-link to="#">Exercicio 01</router-link></li>
+              <li><router-link to="#">Exercicio 02</router-link></li>
+              <li><router-link to="#">Exercicio 03</router-link></li>
+            </ul>
+          </div>
+          
+          <!--CARD - Quarta FEIRA-->
+          <div class="nav-vertical2">
+            <p>Quarta-Feira</p>
+            <ul class="links">
+              <li><router-link to="#">Exercicio 01</router-link></li>
+              <li><router-link to="#">Exercicio 02</router-link></li>
+              <li><router-link to="#">Exercicio 03</router-link></li>
+            </ul>
+          </div>
+
         </div>
 
       </div>
@@ -87,6 +113,12 @@ header .subtitle {
   opacity: 0.9;
 }
 
+.cont-carts{
+  display: flex;
+  gap: 40px;
+}
+
+/**CARD SEGUNDA FEIRA */
 .nav-vertical {
   margin-top: 1.6rem;
   background: rgba(255, 255, 255, 0.08);
@@ -97,29 +129,46 @@ header .subtitle {
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
 }
 
-.nav-vertical p {
+/**CARD TERÇA FEIRA */
+.nav-vertical2 {
+  margin-top: 1.6rem;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  border-left: 3px solid #a3b8ff;
+  max-width: 180px;
+  min-width: 100px; 
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-vertical p,
+.nav-vertical2 p {
   font-weight: 600;
   font-size: 1.1rem;
   margin-bottom: 1rem;
 }
 
-.nav-vertical ul {
+.nav-vertical ul,
+.nav-vertical2 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.nav-vertical li {
+.nav-vertical li,
+.nav-vertical2 li {
   margin-bottom: 0.4rem;
 }
 
-.nav-vertical a {
+.nav-vertical a,
+.nav-vertical2 a {
   color: #d6e0ff;
   text-decoration: none;
   transition: 0.3s ease;
 }
 
-.nav-vertical a:hover {
+.nav-vertical a:hover,
+.nav-vertical2 a:hover {
   color: #ffffff;
   text-decoration: underline;
 }

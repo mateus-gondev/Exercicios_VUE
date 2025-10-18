@@ -14,10 +14,24 @@ O principal foco desta semana é o estudo e prática com o **framework Vue.js**.
 
 ## 📘 Semana 01 — Vue.js
 
-### 🗂️ Exercícios desenvolvidos:
+### 🗂️ Exercícios desenvolvidos - Segunda:
 - **Contador** — contador interativo com incrementos e decrementos personalizáveis.  
 - **Lista de Tarefas** — aplicação simples para adicionar, editar e remover tarefas.  
-- **Exercício 03** — (em desenvolvimento).
+- **Calculadora IMC** — Calculadora simples de IMC (Indice de massa corporia).
+
+#
+
+### 🗂️ Exercícios desenvolvidos - Terça:
+- **Exercicio 01** - Em desenvolvimento.
+- **Exercicio 02** - Em desenvolvimento.
+- **Exercicio 03** - Em desenvolvimento.
+
+#
+
+### 🗂️ Exercícios desenvolvidos - Quarta:
+- **Exercicio 01** - Em desenvolvimento.
+- **Exercicio 02** - Em desenvolvimento.
+- **Exercicio 03** - Em desenvolvimento.
 
 ---
 

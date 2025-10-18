@@ -13,7 +13,7 @@
           <ul class="links">
             <li><router-link to="/">Contador</router-link></li>
             <li><router-link to="/tarefas">Lista de Tarefas</router-link></li>
-            <li><a href="#">Exercício 03</a></li>
+            <li><router-link to="/imc">Calculadora IMC</router-link></li>
           </ul>
         </div>
 
